@@ -32,6 +32,7 @@
             this.atividadesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exercicio1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gasolinaalcoolToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,7 +51,8 @@
             // atividadesToolStripMenuItem
             // 
             this.atividadesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.exercicio1ToolStripMenuItem});
+            this.exercicio1ToolStripMenuItem,
+            this.gasolinaalcoolToolStripMenuItem});
             this.atividadesToolStripMenuItem.Name = "atividadesToolStripMenuItem";
             this.atividadesToolStripMenuItem.Size = new System.Drawing.Size(93, 24);
             this.atividadesToolStripMenuItem.Text = "Atividades";
@@ -68,6 +70,13 @@
             this.sairToolStripMenuItem.Size = new System.Drawing.Size(48, 24);
             this.sairToolStripMenuItem.Text = "Sair";
             this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
+            // 
+            // gasolinaalcoolToolStripMenuItem
+            // 
+            this.gasolinaalcoolToolStripMenuItem.Name = "gasolinaalcoolToolStripMenuItem";
+            this.gasolinaalcoolToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.gasolinaalcoolToolStripMenuItem.Text = "gasolina/alcool";
+            this.gasolinaalcoolToolStripMenuItem.Click += new System.EventHandler(this.gasolinaalcoolToolStripMenuItem_Click);
             // 
             // frmprincipal
             // 
@@ -92,6 +101,7 @@
         private System.Windows.Forms.ToolStripMenuItem atividadesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exercicio1ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem gasolinaalcoolToolStripMenuItem;
     }
 }
 

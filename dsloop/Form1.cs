@@ -38,5 +38,12 @@ namespace dsloop
         {
 
         }
+
+        private void gasolinaalcoolToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmag frm = new frmag();
+            frm.Show();
+        }
     }
 }
