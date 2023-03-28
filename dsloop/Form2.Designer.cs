@@ -36,6 +36,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtresult = new System.Windows.Forms.TextBox();
             this.btnvoltar = new System.Windows.Forms.Button();
+            this.btnlimpar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnwhile
@@ -60,7 +61,7 @@
             // 
             // btnfor
             // 
-            this.btnfor.Location = new System.Drawing.Point(433, 221);
+            this.btnfor.Location = new System.Drawing.Point(457, 221);
             this.btnfor.Name = "btnfor";
             this.btnfor.Size = new System.Drawing.Size(105, 23);
             this.btnfor.TabIndex = 8;
@@ -97,12 +98,12 @@
             // 
             this.txtresult.Location = new System.Drawing.Point(242, 138);
             this.txtresult.Name = "txtresult";
-            this.txtresult.Size = new System.Drawing.Size(187, 22);
+            this.txtresult.Size = new System.Drawing.Size(215, 22);
             this.txtresult.TabIndex = 10;
             // 
             // btnvoltar
             // 
-            this.btnvoltar.Location = new System.Drawing.Point(290, 314);
+            this.btnvoltar.Location = new System.Drawing.Point(203, 314);
             this.btnvoltar.Name = "btnvoltar";
             this.btnvoltar.Size = new System.Drawing.Size(75, 23);
             this.btnvoltar.TabIndex = 11;
@@ -110,11 +111,22 @@
             this.btnvoltar.UseVisualStyleBackColor = true;
             this.btnvoltar.Click += new System.EventHandler(this.btnvoltar_Click);
             // 
+            // btnlimpar
+            // 
+            this.btnlimpar.Location = new System.Drawing.Point(382, 314);
+            this.btnlimpar.Name = "btnlimpar";
+            this.btnlimpar.Size = new System.Drawing.Size(75, 23);
+            this.btnlimpar.TabIndex = 12;
+            this.btnlimpar.Text = "limpar";
+            this.btnlimpar.UseVisualStyleBackColor = true;
+            this.btnlimpar.Click += new System.EventHandler(this.btnlimpar_Click);
+            // 
             // frmloop
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnlimpar);
             this.Controls.Add(this.btnvoltar);
             this.Controls.Add(this.txtresult);
             this.Controls.Add(this.label1);
@@ -140,5 +152,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtresult;
         private System.Windows.Forms.Button btnvoltar;
+        private System.Windows.Forms.Button btnlimpar;
     }
 }

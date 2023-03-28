@@ -105,6 +105,7 @@
             this.btnlimpar.TabIndex = 7;
             this.btnlimpar.Text = "limpar";
             this.btnlimpar.UseVisualStyleBackColor = true;
+            this.btnlimpar.Click += new System.EventHandler(this.btnlimpar_Click);
             // 
             // btnvoltar
             // 
@@ -114,6 +115,7 @@
             this.btnvoltar.TabIndex = 8;
             this.btnvoltar.Text = "voltar";
             this.btnvoltar.UseVisualStyleBackColor = true;
+            this.btnvoltar.Click += new System.EventHandler(this.btnvoltar_Click);
             // 
             // frmag
             // 

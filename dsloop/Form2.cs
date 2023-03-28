@@ -69,5 +69,12 @@ namespace dsloop
             frmprincipal frm = new frmprincipal();
             frm.Show();
         }
+
+        private void btnlimpar_Click(object sender, EventArgs e)
+        {
+            txtnum.Clear();
+            txtresult.Clear();
+            txtnum.Focus();
+        }
     }
 }

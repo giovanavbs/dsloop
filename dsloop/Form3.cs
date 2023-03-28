@@ -53,5 +53,20 @@ namespace dsloop
                 }
             }
         }
+
+        private void btnlimpar_Click(object sender, EventArgs e)
+        {
+            txtlitro.Clear();
+            txtcomb.Clear();
+            txtresult.Clear();
+            txtlitro.Focus();
+        }
+
+        private void btnvoltar_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmprincipal frm = new frmprincipal();
+            frm.Show();
+        }
     }
 }
