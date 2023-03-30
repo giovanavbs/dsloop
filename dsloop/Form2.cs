@@ -26,10 +26,10 @@ namespace dsloop
 
             i = 1;
 
-            while(i >= 10)
+            while(i <= 10)
                 {
                    result = num * i;
-                   txtresult.Text = String.Concat(txtresult.Text, " \n\r ", result.ToString());
+                   txtresult.Text = String.Concat(txtresult.Text, " \n\n ", result.ToString());
                    i++;
                 }
         }
@@ -45,9 +45,9 @@ namespace dsloop
             do
             {
                 result = num * i;
-                txtresult.Text = String.Concat(txtresult.Text, " \n\r ", result.ToString());
+                txtresult.Text = String.Concat(txtresult.Text, " \n\n ", result.ToString());
                 i++;
-            } while(i >= 10);
+            } while(i <=10);
         }
 
         private void btnfor_Click(object sender, EventArgs e)
@@ -58,9 +58,11 @@ namespace dsloop
             num = Convert.ToDouble(txtnum.Text);
 
 
-            for (i = 1; i < 11; i++) 
-            result = num * i;
-            
+            for (i = 1; i < 11; i++)
+            {
+                result = num * i;
+                txtresult.Text = String.Concat(txtresult.Text, " \n\n ", result.ToString());
+            }
         }
 
         private void btnvoltar_Click(object sender, EventArgs e)
@@ -75,6 +77,11 @@ namespace dsloop
             txtnum.Clear();
             txtresult.Clear();
             txtnum.Focus();
+        }
+
+        private void frmloop_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

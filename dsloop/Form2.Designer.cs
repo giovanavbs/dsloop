@@ -41,9 +41,11 @@
             // 
             // btnwhile
             // 
-            this.btnwhile.Location = new System.Drawing.Point(114, 221);
+            this.btnwhile.Font = new System.Drawing.Font("Mongolian Baiti", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnwhile.Location = new System.Drawing.Point(116, 177);
+            this.btnwhile.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnwhile.Name = "btnwhile";
-            this.btnwhile.Size = new System.Drawing.Size(101, 23);
+            this.btnwhile.Size = new System.Drawing.Size(113, 29);
             this.btnwhile.TabIndex = 6;
             this.btnwhile.Text = "calcular while";
             this.btnwhile.UseVisualStyleBackColor = true;
@@ -51,9 +53,11 @@
             // 
             // btndo
             // 
-            this.btndo.Location = new System.Drawing.Point(281, 221);
+            this.btndo.Font = new System.Drawing.Font("Mongolian Baiti", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btndo.Location = new System.Drawing.Point(241, 177);
+            this.btndo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btndo.Name = "btndo";
-            this.btndo.Size = new System.Drawing.Size(96, 23);
+            this.btndo.Size = new System.Drawing.Size(104, 29);
             this.btndo.TabIndex = 7;
             this.btndo.Text = "calcular do";
             this.btndo.UseVisualStyleBackColor = true;
@@ -61,9 +65,11 @@
             // 
             // btnfor
             // 
-            this.btnfor.Location = new System.Drawing.Point(457, 221);
+            this.btnfor.Font = new System.Drawing.Font("Mongolian Baiti", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnfor.Location = new System.Drawing.Point(373, 177);
+            this.btnfor.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnfor.Name = "btnfor";
-            this.btnfor.Size = new System.Drawing.Size(105, 23);
+            this.btnfor.Size = new System.Drawing.Size(111, 29);
             this.btnfor.TabIndex = 8;
             this.btnfor.Text = "calcular for";
             this.btnfor.UseVisualStyleBackColor = true;
@@ -72,40 +78,50 @@
             // lblnum
             // 
             this.lblnum.AutoSize = true;
-            this.lblnum.Location = new System.Drawing.Point(111, 92);
+            this.lblnum.Font = new System.Drawing.Font("Mongolian Baiti", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblnum.Location = new System.Drawing.Point(113, 72);
+            this.lblnum.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblnum.Name = "lblnum";
-            this.lblnum.Size = new System.Drawing.Size(104, 16);
+            this.lblnum.Size = new System.Drawing.Size(113, 16);
             this.lblnum.TabIndex = 0;
             this.lblnum.Text = "Digite o número:";
             // 
             // txtnum
             // 
-            this.txtnum.Location = new System.Drawing.Point(242, 89);
+            this.txtnum.Font = new System.Drawing.Font("Mongolian Baiti", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtnum.Location = new System.Drawing.Point(269, 63);
+            this.txtnum.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtnum.Name = "txtnum";
-            this.txtnum.Size = new System.Drawing.Size(100, 22);
+            this.txtnum.Size = new System.Drawing.Size(76, 25);
             this.txtnum.TabIndex = 3;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(114, 138);
+            this.label1.Font = new System.Drawing.Font("Mongolian Baiti", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(116, 109);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(66, 16);
+            this.label1.Size = new System.Drawing.Size(65, 16);
             this.label1.TabIndex = 9;
             this.label1.Text = "Tabuada:";
             // 
             // txtresult
             // 
-            this.txtresult.Location = new System.Drawing.Point(242, 138);
+            this.txtresult.Font = new System.Drawing.Font("Mongolian Baiti", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtresult.Location = new System.Drawing.Point(212, 100);
+            this.txtresult.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtresult.Name = "txtresult";
-            this.txtresult.Size = new System.Drawing.Size(215, 22);
+            this.txtresult.Size = new System.Drawing.Size(192, 25);
             this.txtresult.TabIndex = 10;
             // 
             // btnvoltar
             // 
-            this.btnvoltar.Location = new System.Drawing.Point(203, 314);
+            this.btnvoltar.Font = new System.Drawing.Font("Mongolian Baiti", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnvoltar.Location = new System.Drawing.Point(182, 252);
+            this.btnvoltar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnvoltar.Name = "btnvoltar";
-            this.btnvoltar.Size = new System.Drawing.Size(75, 23);
+            this.btnvoltar.Size = new System.Drawing.Size(88, 29);
             this.btnvoltar.TabIndex = 11;
             this.btnvoltar.Text = "voltar";
             this.btnvoltar.UseVisualStyleBackColor = true;
@@ -113,9 +129,11 @@
             // 
             // btnlimpar
             // 
-            this.btnlimpar.Location = new System.Drawing.Point(382, 314);
+            this.btnlimpar.Font = new System.Drawing.Font("Mongolian Baiti", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnlimpar.Location = new System.Drawing.Point(316, 252);
+            this.btnlimpar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnlimpar.Name = "btnlimpar";
-            this.btnlimpar.Size = new System.Drawing.Size(75, 23);
+            this.btnlimpar.Size = new System.Drawing.Size(88, 29);
             this.btnlimpar.TabIndex = 12;
             this.btnlimpar.Text = "limpar";
             this.btnlimpar.UseVisualStyleBackColor = true;
@@ -123,9 +141,10 @@
             // 
             // frmloop
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.btnlimpar);
             this.Controls.Add(this.btnvoltar);
             this.Controls.Add(this.txtresult);
@@ -135,8 +154,10 @@
             this.Controls.Add(this.btnwhile);
             this.Controls.Add(this.txtnum);
             this.Controls.Add(this.lblnum);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "frmloop";
             this.Text = "loop";
+            this.Load += new System.EventHandler(this.frmloop_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

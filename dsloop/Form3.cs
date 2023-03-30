@@ -26,7 +26,7 @@ namespace dsloop
             litro = Convert.ToDouble(txtlitro.Text);
             comb = Convert.ToChar(txtcomb.Text);
 
-            if(comb = A)
+            if(comb == 'A')
             {
                 if(litro < 20)
                 {
@@ -39,7 +39,7 @@ namespace dsloop
                     txtresult.Text = result.ToString();
                 }
             }
-            else if(comb = G)
+            else if(comb == 'G')
             {
                 if(litro < 20)
                 {
@@ -67,6 +67,16 @@ namespace dsloop
             this.Hide();
             frmprincipal frm = new frmprincipal();
             frm.Show();
+        }
+
+        private void lblresult_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmag_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
